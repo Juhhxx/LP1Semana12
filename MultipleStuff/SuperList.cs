@@ -16,6 +16,10 @@ namespace MultipleStuff
         {
             return new MinMaxStruct(this.Min(),this.Max());
         }
+        public Tuple<double,double> GetMinMax3()
+        {
+            return Tuple.Create(this.Min(),this.Max());
+        }
         
         public struct MinMaxStruct
         {
