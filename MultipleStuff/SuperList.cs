@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace MultipleStuff
 {
-    public class SuperList
+    public class SuperList : List<double>
     {
         
     }
