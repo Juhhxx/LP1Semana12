@@ -20,6 +20,10 @@ namespace MultipleStuff
             double min3 = list.GetMinMax3().Item1;
             double max3 = list.GetMinMax3().Item2;
             Console.WriteLine($"3.\nmin:{min3} max:{max3}");
+
+            double min4 = list.GetMinMax4().Min;
+            double max4 = list.GetMinMax4().Max;
+            Console.WriteLine($"4.\nmin:{min4} max:{max4}");
         }
     }
 }
