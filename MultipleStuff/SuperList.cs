@@ -20,6 +20,10 @@ namespace MultipleStuff
         {
             return Tuple.Create(this.Min(),this.Max());
         }
+        public (double Min,double Max) GetMinMax4()
+        {
+            return (this.Min(),this.Max());
+        }
         
         public struct MinMaxStruct
         {
