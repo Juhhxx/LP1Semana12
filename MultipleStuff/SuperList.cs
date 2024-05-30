@@ -14,7 +14,7 @@ namespace MultipleStuff
         }
         public MinMaxStruct GetMinMax2()
         {
-            
+            return new MinMaxStruct(this.Min(),this.Max());
         }
         
         public struct MinMaxStruct
